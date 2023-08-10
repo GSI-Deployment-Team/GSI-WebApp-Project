@@ -1,0 +1,151 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\about.cshtml" />
+    <Content Remove="wwwroot\css\bootstrap.css" />
+    <Content Remove="wwwroot\css\font-awesome.css" />
+    <Content Remove="wwwroot\css\ionicon.css" />
+    <Content Remove="wwwroot\css\royal-preload.css" />
+    <Content Remove="wwwroot\css\slick-theme.css" />
+    <Content Remove="wwwroot\css\slick.css" />
+    <Content Remove="wwwroot\js\countto.min.js" />
+    <Content Remove="wwwroot\js\header-footer.js" />
+    <Content Remove="wwwroot\js\jquery.isotope.min.js" />
+    <Content Remove="wwwroot\js\jquery.min.js" />
+    <Content Remove="wwwroot\js\royal_preloader.min.js" />
+    <Content Remove="wwwroot\js\scripts.js" />
+    <Content Remove="wwwroot\js\slick.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\about.cshtml" />
+    <None Include="wwwroot\css\bootstrap.css" />
+    <None Include="wwwroot\css\font-awesome.css" />
+    <None Include="wwwroot\css\ionicon.css" />
+    <None Include="wwwroot\css\royal-preload.css" />
+    <None Include="wwwroot\css\slick-theme.css" />
+    <None Include="wwwroot\css\slick.css" />
+    <None Include="wwwroot\js\countto.min.js" />
+    <None Include="wwwroot\js\header-footer.js" />
+    <None Include="wwwroot\js\jquery.isotope.min.js" />
+    <None Include="wwwroot\js\jquery.min.js" />
+    <None Include="wwwroot\js\royal_preloader.min.js" />
+    <None Include="wwwroot\js\scripts.js" />
+    <None Include="wwwroot\js\slick.min.js" />
+    <None Include="wwwroot\revolution\.DS_Store" />
+    <None Include="wwwroot\revolution\assets\.DS_Store" />
+    <None Include="wwwroot\revolution\assets\coloredbg.png" />
+    <None Include="wwwroot\revolution\assets\gridtile.png" />
+    <None Include="wwwroot\revolution\assets\gridtile_3x3.png" />
+    <None Include="wwwroot\revolution\assets\gridtile_3x3_white.png" />
+    <None Include="wwwroot\revolution\assets\gridtile_white.png" />
+    <None Include="wwwroot\revolution\assets\loader.gif" />
+    <None Include="wwwroot\revolution\assets\sources\fb.png" />
+    <None Include="wwwroot\revolution\assets\sources\fr.png" />
+    <None Include="wwwroot\revolution\assets\sources\ig.png" />
+    <None Include="wwwroot\revolution\assets\sources\post.png" />
+    <None Include="wwwroot\revolution\assets\sources\revolution_slide1.png" />
+    <None Include="wwwroot\revolution\assets\sources\revolution_slide2.png" />
+    <None Include="wwwroot\revolution\assets\sources\tw.png" />
+    <None Include="wwwroot\revolution\assets\sources\vm.png" />
+    <None Include="wwwroot\revolution\assets\sources\wc.png" />
+    <None Include="wwwroot\revolution\assets\sources\yt.png" />
+    <None Include="wwwroot\revolution\css\.DS_Store" />
+    <None Include="wwwroot\revolution\css\closedhand.cur" />
+    <None Include="wwwroot\revolution\css\index.php" />
+    <None Include="wwwroot\revolution\css\layers.css" />
+    <None Include="wwwroot\revolution\css\navigation-skins\ares.css" />
+    <None Include="wwwroot\revolution\css\navigation-skins\custom.css" />
+    <None Include="wwwroot\revolution\css\navigation-skins\dione.css" />
+    <None Include="wwwroot\revolution\css\navigation-skins\erinyen.css" />
+    <None Include="wwwroot\revolution\css\navigation-skins\gyges.css" />
+    <None Include="wwwroot\revolution\css\navigation-skins\hades.css" />
+    <None Include="wwwroot\revolution\css\navigation-skins\hebe.css" />
+    <None Include="wwwroot\revolution\css\navigation-skins\hephaistos.css" />
+    <None Include="wwwroot\revolution\css\navigation-skins\hermes.css" />
+    <None Include="wwwroot\revolution\css\navigation-skins\hesperiden.css" />
+    <None Include="wwwroot\revolution\css\navigation-skins\metis.css" />
+    <None Include="wwwroot\revolution\css\navigation-skins\persephone.css" />
+    <None Include="wwwroot\revolution\css\navigation-skins\uranus.css" />
+    <None Include="wwwroot\revolution\css\navigation-skins\zeus.css" />
+    <None Include="wwwroot\revolution\css\navigation.css" />
+    <None Include="wwwroot\revolution\css\openhand.cur" />
+    <None Include="wwwroot\revolution\css\settings.css" />
+    <None Include="wwwroot\revolution\fonts\.DS_Store" />
+    <None Include="wwwroot\revolution\fonts\font-awesome\.DS_Store" />
+    <None Include="wwwroot\revolution\fonts\font-awesome\css\font-awesome.css" />
+    <None Include="wwwroot\revolution\fonts\font-awesome\css\font-awesome.min.css" />
+    <None Include="wwwroot\revolution\fonts\font-awesome\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\revolution\fonts\font-awesome\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\revolution\fonts\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\revolution\fonts\font-awesome\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\revolution\fonts\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\revolution\fonts\font-awesome\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\revolution\fonts\font-awesome\index.php" />
+    <None Include="wwwroot\revolution\fonts\index.php" />
+    <None Include="wwwroot\revolution\fonts\pe-icon-7-stroke\.DS_Store" />
+    <None Include="wwwroot\revolution\fonts\pe-icon-7-stroke\css\helper.css" />
+    <None Include="wwwroot\revolution\fonts\pe-icon-7-stroke\css\index.php" />
+    <None Include="wwwroot\revolution\fonts\pe-icon-7-stroke\css\pe-icon-7-stroke.css" />
+    <None Include="wwwroot\revolution\fonts\pe-icon-7-stroke\fonts\index.php" />
+    <None Include="wwwroot\revolution\fonts\pe-icon-7-stroke\fonts\Pe-icon-7-stroke.eot" />
+    <None Include="wwwroot\revolution\fonts\pe-icon-7-stroke\fonts\Pe-icon-7-stroke.svg" />
+    <None Include="wwwroot\revolution\fonts\pe-icon-7-stroke\fonts\Pe-icon-7-stroke.ttf" />
+    <None Include="wwwroot\revolution\fonts\pe-icon-7-stroke\fonts\Pe-icon-7-stroke.woff" />
+    <None Include="wwwroot\revolution\fonts\pe-icon-7-stroke\index.php" />
+    <None Include="wwwroot\revolution\fonts\revicons\index.php" />
+    <None Include="wwwroot\revolution\fonts\revicons\revicons.eot" />
+    <None Include="wwwroot\revolution\fonts\revicons\revicons.svg" />
+    <None Include="wwwroot\revolution\fonts\revicons\revicons.ttf" />
+    <None Include="wwwroot\revolution\fonts\revicons\revicons.woff" />
+    <None Include="wwwroot\revolution\index.php" />
+    <None Include="wwwroot\revolution\info.cfg" />
+    <None Include="wwwroot\revolution\js\extensions\index.php" />
+    <None Include="wwwroot\revolution\js\extensions\revolution.extension.actions.min.js" />
+    <None Include="wwwroot\revolution\js\extensions\revolution.extension.carousel.min.js" />
+    <None Include="wwwroot\revolution\js\extensions\revolution.extension.kenburn.min.js" />
+    <None Include="wwwroot\revolution\js\extensions\revolution.extension.layeranimation.min.js" />
+    <None Include="wwwroot\revolution\js\extensions\revolution.extension.migration.min.js" />
+    <None Include="wwwroot\revolution\js\extensions\revolution.extension.navigation.min.js" />
+    <None Include="wwwroot\revolution\js\extensions\revolution.extension.parallax.min.js" />
+    <None Include="wwwroot\revolution\js\extensions\revolution.extension.slideanims.min.js" />
+    <None Include="wwwroot\revolution\js\extensions\revolution.extension.video.min.js" />
+    <None Include="wwwroot\revolution\js\extensions\source\index.php" />
+    <None Include="wwwroot\revolution\js\extensions\source\revolution.extension.actions.js" />
+    <None Include="wwwroot\revolution\js\extensions\source\revolution.extension.carousel.js" />
+    <None Include="wwwroot\revolution\js\extensions\source\revolution.extension.kenburn.js" />
+    <None Include="wwwroot\revolution\js\extensions\source\revolution.extension.layeranimation.js" />
+    <None Include="wwwroot\revolution\js\extensions\source\revolution.extension.migration.js" />
+    <None Include="wwwroot\revolution\js\extensions\source\revolution.extension.navigation.js" />
+    <None Include="wwwroot\revolution\js\extensions\source\revolution.extension.parallax.js" />
+    <None Include="wwwroot\revolution\js\extensions\source\revolution.extension.slideanims.js" />
+    <None Include="wwwroot\revolution\js\extensions\source\revolution.extension.video.js" />
+    <None Include="wwwroot\revolution\js\index.php" />
+    <None Include="wwwroot\revolution\js\jquery.themepunch.enablelog.js" />
+    <None Include="wwwroot\revolution\js\jquery.themepunch.revolution.min.js" />
+    <None Include="wwwroot\revolution\js\jquery.themepunch.tools.min.js" />
+    <None Include="wwwroot\revolution\js\source\index.php" />
+    <None Include="wwwroot\revolution\js\source\jquery.themepunch.enablelog.js" />
+    <None Include="wwwroot\revolution\js\source\jquery.themepunch.revolution.js" />
+    <None Include="wwwroot\revolution\js\source\jquery.themepunch.tools.min.js" />
+    <None Include="wwwroot\revolution\php\.DS_Store" />
+    <None Include="wwwroot\revolution\php\facebook\class-facebook.php" />
+    <None Include="wwwroot\revolution\php\flickr\class-flickr.php" />
+    <None Include="wwwroot\revolution\php\instagram\class-instagram.php" />
+    <None Include="wwwroot\revolution\php\twitter\.DS_Store" />
+    <None Include="wwwroot\revolution\php\twitter\class-twitter.php" />
+    <None Include="wwwroot\revolution\php\twitter\connection\Application.php" />
+    <None Include="wwwroot\revolution\php\twitter\connection\ConnectionAbstract.php" />
+    <None Include="wwwroot\revolution\php\twitter\connection\User.php" />
+    <None Include="wwwroot\revolution\php\twitter\RestApi.php" />
+    <None Include="wwwroot\revolution\php\vimeo\class-vimeo.php" />
+    <None Include="wwwroot\revolution\php\youtube\class-youtube.php" />
+  </ItemGroup>
+
+</Project>
