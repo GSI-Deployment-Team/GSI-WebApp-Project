@@ -29,6 +29,7 @@
     <!-- Layout styles -->
     <link rel="stylesheet" href="../Content/assets/css/demo2/style.css">
     <!-- End layout styles -->
+    <link rel="stylesheet" href="../Content/assets/vendors/datatables.net-bs5/dataTables.bootstrap5.css">
 
     <link rel="shortcut icon" href="../Content/assets/images/favicon.png" />
 </head>
@@ -40,7 +41,7 @@
         <nav class="sidebar">
             <div class="sidebar-header">
                 <a href="@Url.Action("Dashboard", "Home")" class="sidebar-brand">
-                    Noble<span>UI</span>
+                    Portal<span>GSI</span>
                 </a>
                 <div class="sidebar-toggler not-active">
                     <span></span>
@@ -57,6 +58,12 @@
                             <span class="link-title">Dashboard</span>
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a href="@Url.Action("UserManagement", "User")" class="nav-link">
+                            <i class="link-icon" data-feather="layout"></i>
+                            <span class="link-title">Control de Usuarios</span>
+                        </a>
+                    </li>
                     <li class="nav-item nav-category">web apps</li>
                     <li class="nav-item">
                         <a class="nav-link" data-bs-toggle="collapse" href="#emails" role="button" aria-expanded="false" aria-controls="emails">
@@ -67,25 +74,25 @@
                         <div class="collapse" id="emails">
                             <ul class="nav sub-menu">
                                 <li class="nav-item">
-                                    <a href="~/Content/demo2/pages/email/inbox.html" class="nav-link">Inbox</a>
+                                    <a href="#" class="nav-link">Inbox</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="~/Content/demo2/pages/email/read.html" class="nav-link">Read</a>
+                                    <a href="#" class="nav-link">Read</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="~/Content/demo2/pages/email/compose.html" class="nav-link">Compose</a>
+                                    <a href="#" class="nav-link">Compose</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a href="~/Content/demo2/pages/apps/chat.html" class="nav-link">
+                        <a href="#" class="nav-link">
                             <i class="link-icon" data-feather="message-square"></i>
                             <span class="link-title">Chat</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="~/Content/demo2/pages/apps/calendar.html" class="nav-link">
+                        <a href="#" class="nav-link">
                             <i class="link-icon" data-feather="calendar"></i>
                             <span class="link-title">Calendar</span>
                         </a>
@@ -643,6 +650,11 @@
     <!-- Custom js for this page -->
     <script src="../Content/assets/js/dashboard-dark.js"></script>
     <!-- End custom js for this page -->
+
+    <script src="../Content/assets/vendors/datatables.net/jquery.dataTables.js"></script>
+    <script src="../Content/assets/vendors/datatables.net-bs5/dataTables.bootstrap5.js"></script>
+    <script src="../Content/assets/js/data-table.js"></script>
+
 
 </body>
 

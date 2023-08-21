@@ -1,0 +1,305 @@
+﻿
+@{
+    ViewBag.Title = "UserManagement";
+    Layout = "~/Views/Shared/MainPageLayout.cshtml";
+}
+
+<div class="page-content">
+
+    <nav class="page-breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">CONTROL DE USUARIOS</a></li>
+        </ol>
+    </nav>
+
+    <div class="row">
+        <div class="col-md-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h6 class="card-title">CONTROL DE USUARIOS</h6>
+                    <div class="table-responsive">
+                        <table id="dataTableExample" class="table">
+                            <thead>
+                                <tr>
+                                    <th>Correo Electrónico</th>
+                                    <th>Nombre</th>
+                                    <th>Apellidos</th>
+                                    <th>Rol</th>
+                                    <th>Estado</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>user1@example.com</td>
+                                    <td>Tiger Nixon</td>
+                                    <td>Martínez García</td>
+                                    <td>Administrador</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>john.doe@example.com</td>
+                                    <td>Garrett Winters</td>
+                                    <td>Rodríguez López</td>
+                                    <td>Ejecutivo</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>alice.smith@example.com</td>
+                                    <td>Ashton Cox</td>
+                                    <td>Pérez Fernández</td>
+                                    <td>Usuario</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>testuser123@example.com</td>
+                                    <td>Cedric Kelly</td>
+                                    <td>López González</td>
+                                    <td>Administrador</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>jennifer@email.com</td>
+                                    <td>Airi Satou</td>
+                                    <td>González Pérez</td>
+                                    <td>Ejecutivo</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>admin@example.net</td>
+                                    <td>Brielle Williamson</td>
+                                    <td>Sánchez Rodríguez</td>
+                                    <td>Usuario</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>sarah.jones@example.org</td>
+                                    <td>Herrod Chandler</td>
+                                    <td>García Martínez</td>
+                                    <td>Administrador</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>demo.user@example.com</td>
+                                    <td>Rhona Davidson</td>
+                                    <td>Fernández Sánchez</td>
+                                    <td>Ejecutivo</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>support@company.com</td>
+                                    <td>Colleen Hurst</td>
+                                    <td>Ramírez Ruiz</td>
+                                    <td>Usuario</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>jane.doe@example.net</td>
+                                    <td>Sonya Frost</td>
+                                    <td>Torres Díaz</td>
+                                    <td>Administrador</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>info@example.org</td>
+                                    <td>Jena Gaines</td>
+                                    <td>Díaz Torres</td>
+                                    <td>Ejecutivo</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>webmaster@example.com</td>
+                                    <td>Quinn Flynn</td>
+                                    <td>Jiménez Vargas</td>
+                                    <td>Usuario</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>marketing.team@example.net</td>
+                                    <td>Charde Marshall</td>
+                                    <td>Hernández Reyes</td>
+                                    <td>Administrador</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>contact@example.org</td>
+                                    <td>Haley Kennedy</td>
+                                    <td>Morales Silva</td>
+                                    <td>Ejecutivo</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>customer.service@example.com</td>
+                                    <td>Tatyana Fitzpatrick</td>
+                                    <td>Castillo Ramírez</td>
+                                    <td>Usuario</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>developer@example.net</td>
+                                    <td>Michael Silva</td>
+                                    <td>Vargas Morales</td>
+                                    <td>Administrador</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>sales.rep@example.com</td>
+                                    <td>Paul Byrd</td>
+                                    <td>Ruiz Castillo</td>
+                                    <td>Ejecutivo</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>tech.support@example.org</td>
+                                    <td>Gloria Little</td>
+                                    <td>Reyes Jiménez</td>
+                                    <td>Usuario</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>feedback@company.com</td>
+                                    <td>Bradley Greer</td>
+                                    <td>Silva Hernández</td>
+                                    <td>Administrador</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>hr.department@example.net</td>
+                                    <td>Dai Rios</td>
+                                    <td>Ramos Ortiz</td>
+                                    <td>Ejecutivo</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>hr.department@example.net</td>
+                                    <td>Jenette Caldwell</td>
+                                    <td>Mendoza Medina</td>
+                                    <td>Usuario</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                                <tr>
+                                    <td>social.media@example.org</td>
+                                    <td>Yuri Berry</td>
+                                    <td>Ortega Ramos</td>
+                                    <td>Administrador</td>
+                                    <td>
+                                        <button type="button" class="dt-button btn btn-info btn-sm" data-keyboard="false">
+                                            Desactivar
+                                        </button>
+                                    </td>
+                                    <td><a class="btn btn-info btn-sm" href="#">Actualizar</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
