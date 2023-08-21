@@ -5015,3 +5015,8 @@ div.line-chart .chart-legend li {
     padding: 13px 24px;
   }
 }
+
+
+#form1 {
+    display : none;
+}
