@@ -142,7 +142,8 @@
     <Content Include="Content\assets\images\icon-write.png" />
     <Content Include="Content\assets\images\logo-bg.png" />
     <Content Include="Content\assets\images\logo-blue.png" />
-    <Content Include="Content\assets\images\logo-white.svg" />
+    <Content Include="Content\assets\images\logo-white.png" />
+    <Content Include="Content\assets\images\logo-white1.svg" />
     <Content Include="Content\assets\images\logo.png" />
     <Content Include="Content\assets\images\logo.svg" />
     <Content Include="Content\assets\images\logo1.png" />
@@ -1614,6 +1615,10 @@
     <Content Include="Content\gulpfile.js" />
     <Content Include="Content\index.html" />
     <Content Include="Global.asax" />
+    <Content Include="Views\Home\Seguros_List.cshtml" />
+    <Content Include="Views\Home\Seguro1.cshtml" />
+    <None Include="Views\Home\service-detail.cshtml" />
+    <None Include="Views\Home\services.cshtml" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

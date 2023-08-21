@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿
+
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -48,7 +51,7 @@
                                 </li>
                             </ul>
                             <!-- social icons close -->
-                            <div class="topbar-text fright"> Opening Hours : Monday to Saturday - 8am to 9pm</div>
+                            <div class="topbar-text fright"> Disponibilidad en oficinas : Lunes a Viernes - 8am a 5pm</div>
                         </div>
                     </div>
                 </div>
@@ -62,8 +65,8 @@
                             <div class="col-md-12">
                                 <div class="col-wrap-table">
                                     <div id="site-logo" class="site-logo col-media-left col-media-middle">
-                                        <a href="index.html">
-                                            <img class="logo-static" src="~/Content/assets/images/logo-white.svg" alt="Consultax">
+                                        <a href="@Url.Action("Index","Home")">
+                                            <img class="logo-static" src="~/Content/assets/images/logo-white.png"  width="231" height="47" alt="Consultax">
                                             <img class="logo-scroll" src="~/Content/assets/images/logo-white.svg" alt="Consultax">
                                         </a>
                                     </div>
@@ -71,10 +74,13 @@
                                         <!-- contact info -->
                                         <ul class="info-list info_on_right_side fright">
                                             <li>
-                                                <span>Address: <strong>121 King Street <br>Melbourne Victoria 3000 Australia</strong></span>
+                                                <span>Direccion: <strong>300 este de los Tribunales de Justicia de Goicochea Barrio Santa Cecilia, Guadalupe, San José.</strong></span>
                                             </li>
                                             <li>
-                                                <span>Free call: <strong class="font-size18">(917)  814 - 3527</strong></span>
+                                                <span>
+                                                    Contactenos: <br />  <strong class="font-size18">(506) 2283 - 2630</strong> <br />
+                                                                        <strong class="font-size18">  contactenos@gsi-seguros.com  </strong>
+                                                </span>
                                             </li>
                                         </ul>
                                         <!-- contact info close -->
@@ -105,7 +111,7 @@
                                     <div id="site-navigation" class="main-navigation fleft">
                                         <ul id="primary-menu" class="menu">
                                             <li>
-                                                <a href="index.html">Home</a>
+                                                <a href="@Url.Action("Index","Home")">Home</a>
                                             </li>
                                             <li class="menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1731">
                                                 <a href="#">Pages</a>
@@ -120,29 +126,29 @@
                                                 </ul>
                                             </li>
                                             <li class="menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1789">
-                                                <a href="services.html">Services</a>
+                                                <a href="services.html">Servicios</a>
                                                 <ul class="sub-menu">
-                                                    <li class="menu-item-1791"><a href="service-detail.html">Financial Consulting</a></li>
-                                                    <li class="menu-item-1758"><a href="service-detail.html">International Business</a></li>
-                                                    <li class="menu-item-1790"><a href="service-detail.html">Audit &amp; Assurance</a></li>
-                                                    <li class="menu-item-1760"><a href="service-detail.html">Taxes and Efficiency</a></li>
-                                                    <li class="menu-item-1761"><a href="service-detail.html">Bonds &amp; Commodities</a></li>
+                                                    <li class="menu-item-1791"><a href="service-detail.html">GSI Virtual</a></li>
+                                                    <li class="menu-item-1758"><a href="service-detail.html">Avaluos</a></li>
+                                                    <li class="menu-item-1790"><a href="service-detail.html">Reclamos</a></li>
+                                                    <li class="menu-item-1760"><a href="service-detail.html">Sacar cita</a></li>
+                                                    <li class="menu-item-1761"><a href="service-detail.html">Creacion de cuenta</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children">
-                                                <a href="projects.html">Cases Study</a>
+                                                <a href="projects.html">Nuestros Seguros</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="projects.html">Cases Study 2 Columns</a></li>
-                                                    <li><a href="projects-2.html">Cases Study 3 Columns</a></li>
-
-                                                    <li><a href="project-detail.html">Cases Study Details</a></li>
+                                                    <li> <a href="@Url.Action("Seguros_List" ,"Home")"> Seguros para empresas</a>  </li>
+                                                    <li><a href="projects-2.html">Seguros personales</a></li>
+                                                    <li><a href="project-detail.html">¿Como funcionan los seguros?</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children">
-                                                <a href="blog.html">Blog</a>
+                                                <a href="blog.html">Quienes Somos?</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="blog.html">Blog List</a></li>
-                                                    <li><a href="post.html">Blog Details</a></li>
+                                                    <li><a href="blog.html">Sobre Nosostros </a></li>
+                                                    <li><a href="post.html">Soluciones Clientes</a></li>
+                                                    <li><a href="post.html">Infraestructura Tecnologica</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="contact.html">Contact</a></li>

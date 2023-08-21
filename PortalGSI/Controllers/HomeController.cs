@@ -19,5 +19,17 @@ namespace PortalGSI.Controllers
             return View();
         }
 
+
+        public ActionResult Seguros_List()
+        {
+            return View();
+        }
+
+
+        public ActionResult Seguro1()
+        {
+            return View();
+        }
+
     }
 }
