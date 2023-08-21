@@ -10,6 +10,23 @@
 *.userosscache
 *.sln.docstates
 
+
+
+
+*.vs/PortalGSI/config/applicationhost.config
+*.vs/PortalGSI/v17/.suo
+PortalGSI/Controllers/HomeController.cs
+PortalGSI/Views/Shared/FrontPageLayout.cshtml
+*PortalGSI/bin/PortalGSI.dll
+*PortalGSI/bin/PortalGSI.pdb
+*PortalGSI/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+*PortalGSI/obj/Debug/PortalGSI.csproj.AssemblyReference.cache
+*PortalGSI/obj/Debug/PortalGSI.csproj.CoreCompileInputs.cache
+*PortalGSI/obj/Debug/PortalGSI.csproj.FileListAbsolute.txt
+*PortalGSI/obj/Debug/PortalGSI.dll
+*PortalGSI/obj/Debug/PortalGSI.pdb
+
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
