@@ -155,6 +155,8 @@
     <Content Include="Content\assets\images\others\404.svg" />
     <Content Include="Content\assets\images\others\logo-placeholder.png" />
     <Content Include="Content\assets\images\others\placeholder.jpg" />
+    <Content Include="Content\assets\images\placeholder1.png" />
+    <Content Include="Content\assets\images\placeholder2.png" />
     <Content Include="Content\assets\images\screenshots\dark.jpg" />
     <Content Include="Content\assets\images\screenshots\light.jpg" />
     <Content Include="Content\assets\images\sign-dark.png" />
@@ -1775,6 +1777,9 @@
     <Content Include="Views\Home\Dashboard.cshtml" />
     <Content Include="Views\Shared\FrontPageLayout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Home\SignUp.cshtml" />
+    <Content Include="Views\Home\RetrievePassword.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -485,6 +485,14 @@ a.the-title:hover {
   color: #f26522;
 }
 
+a.secondary {
+  color: #f26522;
+}
+
+a.secondary:hover {
+  color: #ffffff;
+}
+
 .bg-alt {
   background: #e5eef6;
 }
