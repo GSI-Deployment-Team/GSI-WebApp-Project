@@ -19,8 +19,22 @@ namespace PortalGSI.Controllers
             return View();
         }
 
+        public ActionResult Login()
+        {
+            return View();
+        }
 
-        public ActionResult Seguros_List()
+        public ActionResult SignUp() 
+        { 
+            return View();
+        }
+
+        public ActionResult RetrievePassword()
+        {
+            return View();
+        }
+
+     public ActionResult Seguros_List()
         {
             return View();
         }

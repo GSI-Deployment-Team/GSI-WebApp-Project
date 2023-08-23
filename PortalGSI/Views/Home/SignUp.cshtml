@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = "SignUp";
+    Layout = "~/Views/Shared/FrontPageLayout.cshtml";
+}
+<div id="content" class="site-content">
+
+    <div class="entry-content">
+        <div class="container">
+            <div class="boxed-content">
+
+                <section class="wpb_row row-fluid section-padd">
+                    <div class="container">
+                        <div class="row">
+                            <div class="wpb_column column_container col-sm-12 col-md-7">
+                                <div class="column-inner">
+                                    <div class="wpb_wrapper">
+                                        <div class="section-head ">
+                                            <h2 class="section-title">CREAR CUENTA</h2>
+                                        </div>
+
+                                        <div class="empty_space_12"><span class="empty_space_inner"></span></div>
+                                        <div role="form" class="wpcf7" id="wpcf7-f1989-p967-o1" lang="en-US" dir="ltr">
+                                            <div class="screen-reader-response"></div>
+                                            <form action="@Url.Action("Login", "Home")" method="post" class="wpcf7-form">
+                                                <div class="row">
+                                                    <div class="col-md-6"><span class="wpcf7-form-control-wrap"><input type="text" name="name" value="" size="40" class="wpcf7-form-control" required="" placeholder="Nombre"></span></div>
+                                                    <div class="col-md-6"><span class="wpcf7-form-control-wrap"><input type="text" name="last_name" value="" size="40" class="wpcf7-form-control" required="" placeholder="Apellidos"></span></div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6"><span class="wpcf7-form-control-wrap"><input type="text" name="identification" value="" size="40" class="wpcf7-form-control" placeholder="Cedula"></span></div>
+                                                    <div class="col-md-6"><span class="wpcf7-form-control-wrap"><input type="email" name="email" value="" size="40" class="wpcf7-form-control" required="" placeholder="Correo Electrónico"></span></div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6"><span class="wpcf7-form-control-wrap"><input type="password" name="password" value="" size="40" class="wpcf7-form-control" placeholder="Contraseña"></span></div>
+                                                    <div class="col-md-6"><span class="wpcf7-form-control-wrap"><input type="password" name="password_confirmation" value="" size="40" class="wpcf7-form-control" placeholder="Confirme su contraseña"></span></div>
+                                                </div>
+                                                <p>
+                                                    <input type="submit" value="REGISTRARSE" class="wpcf7-form-control wpcf7-submit btn">
+                                                </p>
+                                            </form>
+                                        </div>
+                                        <div class="empty_space_30 lg-hidden"><span class="empty_space_inner"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wpb_column column_container col-sm-12 col-md-5">
+                                <div class="column-inner">
+                                    <div class="wpb_wrapper">
+                                        <div class="wpb_single_image wpb_content_element align_center">
+                                            <figure class="wpb_wrapper figure">
+                                                <div class="single_image-wrapper box_border_grey"><img src="~/Content/assets/images/placeholder1.png" class="single_image-img attachment-full" alt=""></div>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+</div>
