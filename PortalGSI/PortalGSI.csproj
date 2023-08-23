@@ -162,6 +162,7 @@
     <Content Include="Content\assets\images\sign1.png" />
     <Content Include="Content\assets\images\slide-home1.jpg" />
     <Content Include="Content\assets\images\stars.png" />
+    <Content Include="Content\assets\images\whatsapp-icon.gif" />
     <Content Include="Content\assets\images\woman-slide.png" />
     <Content Include="Content\assets\js\ace.js" />
     <Content Include="Content\assets\js\apexcharts-dark-rtl.js" />
@@ -1617,6 +1618,7 @@
     <Content Include="Global.asax" />
     <Content Include="Views\Home\Seguros_List.cshtml" />
     <Content Include="Views\Home\Seguro1.cshtml" />
+    <Content Include="Views\Home\Forms.cshtml" />
     <None Include="Views\Home\service-detail.cshtml" />
     <None Include="Views\Home\services.cshtml" />
     <Content Include="Web.config" />

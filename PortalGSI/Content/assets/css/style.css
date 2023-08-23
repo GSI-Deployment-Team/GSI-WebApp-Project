@@ -2086,8 +2086,8 @@ ul.info-list.info_on_right_side li:last-child {
 ## Page Header
 --------------------------------------------------------------*/
 .page-header {
-  background: url(https://via.placeholder.com/1920x614?text=backgroud+page+header+1920x620) no-repeat center center;
-  background-size: cover;
+    background: url(https://ertblog.com/wp-content/uploads/2023/05/%C2%BFQue-tipos-de-seguros-necesito-para-proteger-mis-finanzas.png) no-repeat center center;
+    background-size: cover;
 }
 .page-title{
   font-size: 30px;
@@ -4562,6 +4562,9 @@ div.line-chart .chart-legend li {
   z-index: 1000;
 }
 
+
+
+
 #back-to-top:hover {
   background: #000;
 }
@@ -5010,4 +5013,10 @@ div.line-chart .chart-legend li {
 
 #form1 {
     display : none;
+}
+
+#form_modal {
+    display: none;
+    display: flex;
+    align-items: center;
 }
